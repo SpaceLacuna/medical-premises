@@ -70,8 +70,8 @@ def show_specific(collection, rules):
     mytable.field_names = ['title', 'area', 'floors', 'toilet_rooms', 'emergency_exits']
     for channel in collection.find({'$and': rules}):
         mytable.add_row([channel['title'], channel['area'], channel['floors'], channel['toilet_rooms'], channel['emergency_exits']])
-        print('\nPremises that meet the given conditions:')
-        print(mytable)
+    print('\nPremises that meet the given conditions:')
+    print(mytable)
 
 
 def show_all(collection):
