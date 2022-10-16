@@ -8,7 +8,7 @@ def create_collection(db, name):
 
 
 def create_object(collection):
-    print("Adding a new room.\n")
+    print("Adding a new premises")
     new_object = {}
     new_object['title'] = input('title: ')
     new_object['width'] = int(input('width: '))
