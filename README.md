@@ -26,7 +26,7 @@ pip install prettytable
 ```
 git clone https://github.com/SpaceLacuna/medical-premises.git
 ```
-# Running
+## Running
 Since this is a console application, you need to work on the command line.
 #### Step 1. Run cmd.exe.
 #### Step 2. Navigate to the root folder of this project.
