@@ -11,8 +11,6 @@ def create_object(collection):
     print("Adding a new premises")
     new_object = {}
     new_object['title'] = input('title: ')
-    new_object['width'] = int(input('width: '))
-    new_object['length'] = int(input('length: '))
     new_object['area'] = int(input('area: '))
     new_object['floors'] = int(input('floors: '))
     new_object['toilet_rooms'] = int(input('toilet_rooms: '))
