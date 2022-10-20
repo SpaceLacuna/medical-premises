@@ -10,9 +10,11 @@ With this application **you can**:
 * Python 3.10.8
 * MongoDB Community Server 6.0.2
 ## Installation
-#### Step 1. Install [MongoDB Community Server](https://www.mongodb.com/try/download/community).
-#### Step 2. Install [Python](https://www.python.org/downloads/).
-#### Step 3. Install Python libraries.
+**Step 1**. Install [MongoDB Community Server](https://www.mongodb.com/try/download/community).
+
+**Step 2**. Install [Python](https://www.python.org/downloads/).
+
+**Step 3**. Install Python libraries.
 For this application to work, you need to download several libraries. To install, use the pip package installer.
 1. Install **pymongo** to work with MongoDB from Python.
 ```
@@ -22,18 +24,20 @@ pip install pymongo
 ```
 pip install prettytable
 ```
-#### Step 4. Clone this repository to your local computer.
+**Step 4**. Clone this repository to your local computer.
 ```
 git clone https://github.com/SpaceLacuna/medical-premises.git
 ```
 ## Running
 Since this is a console application, you need to work on the command line.
-#### Step 1. Run cmd.exe.
-#### Step 2. Navigate to the root folder of this project.
+
+**Step 1**. Run cmd.exe.
+
+**Step 2**. Navigate to the root folder of this project.
 ```
 cd ...\medical-premises
 ```
-#### Step 3. Run file run.py.
+**Step 3**. Run file run.py.
 ```
 python run.py
 ```
